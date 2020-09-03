@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Booking]">
+  <test thread-count="5" verbose="0" name="PNR(failed)">
+    <classes>
+      <class name="testCases.FlightList">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="selectSeats"/>
+        </methods>
+      </class> <!-- testCases.FlightList -->
+    </classes>
+  </test> <!-- PNR(failed) -->
+</suite> <!-- Failed suite [Booking] -->

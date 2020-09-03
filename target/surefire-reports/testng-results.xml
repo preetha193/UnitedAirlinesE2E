@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Booking" duration-ms="44385" started-at="2020-09-02T02:51:49Z" finished-at="2020-09-02T02:52:33Z">
+    <groups>
+    </groups>
+    <test name="PNR" duration-ms="44385" started-at="2020-09-02T02:51:49Z" finished-at="2020-09-02T02:52:33Z">
+      <class name="testCases.FlightList">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.FlightList@be83e4]" name="launchBrowser" is-config="true" duration-ms="8793" started-at="2020-09-02T02:51:40Z" finished-at="2020-09-02T02:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="findflights()[pri:0, instance:testCases.FlightList@be83e4]" name="findflights" duration-ms="11059" started-at="2020-09-02T02:51:49Z" finished-at="2020-09-02T02:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findflights -->
+        <test-method status="PASS" signature="selectFlight()[pri:1, instance:testCases.FlightList@be83e4]" name="selectFlight" duration-ms="22628" started-at="2020-09-02T02:52:00Z" finished-at="2020-09-02T02:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="travelerinfo()[pri:2, instance:testCases.FlightList@be83e4]" name="travelerinfo" duration-ms="8191" started-at="2020-09-02T02:52:23Z" finished-at="2020-09-02T02:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelerinfo -->
+        <test-method status="PASS" signature="selectSeats()[pri:3, instance:testCases.FlightList@be83e4]" name="selectSeats" duration-ms="2478" started-at="2020-09-02T02:52:31Z" finished-at="2020-09-02T02:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeats -->
+      </class> <!-- testCases.FlightList -->
+    </test> <!-- PNR -->
+  </suite> <!-- Booking -->
+</testng-results>
